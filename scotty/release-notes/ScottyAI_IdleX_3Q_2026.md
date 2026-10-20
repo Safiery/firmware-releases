@@ -1,6 +1,6 @@
-# Scotty AI IdleX - 3Q 2026 (4.0.1.2)
+# Scotty AI IdleX - 3Q 2026 (4.0.1.2-IdelX)
 
-File: `scotty_repos.idleX.v4.0.1.2.bin`  
+File: `scotty_repos.v4.0.1.2-IdelX.bin`  
 SHA-256: `a97e5c2f0a44264eabd4544ac5b098e4b604d6880b052df11d8224dc1507c488`
 
 ## Customer changelog

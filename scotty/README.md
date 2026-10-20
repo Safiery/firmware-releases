@@ -10,7 +10,7 @@ POSTs the binary to `http://172.24.24.1/update`.
 | V2 | 2.6.3.2 | [`59_Scotty_V2.6.3.2.ino.bin`](59_Scotty_V2.6.3.2.ino.bin) | [notes](release-notes/ScottyAI_V2_3Q_2026.md) |
 | V3 | 3.2.1.7 | [`scotty_repos.v3.2.1.7.bin`](scotty_repos.v3.2.1.7.bin) | [notes](release-notes/ScottyAI_V3_3Q_2026.md) |
 | V4 | 4.0.0.6 | [`scotty_repos.v4.0.0.6.bin`](scotty_repos.v4.0.0.6.bin) | [notes](release-notes/ScottyAI_V4_3Q_2026.md) |
-| IdleX | 4.0.1.2 | [`scotty_repos.idleX.v4.0.1.2.bin`](scotty_repos.idleX.v4.0.1.2.bin) | [notes](release-notes/ScottyAI_IdleX_3Q_2026.md) |
+| IdleX | 4.0.1.2-IdelX | [`scotty_repos.v4.0.1.2-IdelX.bin`](scotty_repos.v4.0.1.2-IdelX.bin) | [notes](release-notes/ScottyAI_IdleX_3Q_2026.md) |
 
 Each file's SHA-256 is recorded in its release notes.
 
@@ -21,9 +21,9 @@ A Scotty must only ever be given firmware from **its own line**. There is no rol
 reflashed. Each release's Compatibility section says which hardware it applies to; read it before
 installing anything.
 
-IdleX is a line of its own, not a special build: it updates only from `-IdelX` to `-IdelX`. Note the
-device reports `4.0.1.2-IdelX` while the release is named `4.0.1.2`, so anything matching versions
-has to account for the suffix.
+IdleX is a line of its own, not a special build: it updates only from `-IdelX` to `-IdelX`. Its
+version is written here exactly as the device reports it, suffix included, so that what the app
+compares against and what the unit says are the same string.
 
 ## Special builds do not belong here
 
