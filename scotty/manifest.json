@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-20",
+  "notice": "Scotty firmware lines are not interchangeable and the device has no rollback. Only install a build from the unit's own line.",
+  "releases": [
+    {
+      "line": "V2",
+      "version": "2.6.3.2",
+      "url": "https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/59_Scotty_V2.6.3.2.ino.bin",
+      "sha256": "370cffd93904fbc14538f5dbdb23b296818f93eebbae9902379aa70ea9c5a9b5",
+      "sizeBytes": 1226048,
+      "releaseNotes": "https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/release-notes/ScottyAI_V2_3Q_2026.md"
+    },
+    {
+      "line": "V3",
+      "version": "3.2.1.7",
+      "url": "https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/scotty_repos.v3.2.1.7.bin",
+      "sha256": "93a397f17ebc84c0f8e208024dd38d7648abde56557579a398421c7a38b61545",
+      "sizeBytes": 1266800,
+      "releaseNotes": "https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/release-notes/ScottyAI_V3_3Q_2026.md"
+    },
+    {
+      "line": "V4",
+      "version": "4.0.0.6",
+      "url": "https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/scotty_repos.v4.0.0.6.bin",
+      "sha256": "cb9abb88bf2ab34ef434ed94dbf59bd80b8f96549878b43fb566d0a98735dbf8",
+      "sizeBytes": 1346112,
+      "releaseNotes": "https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/release-notes/ScottyAI_V4_3Q_2026.md"
+    },
+    {
+      "line": "IDLEX",
+      "version": "4.0.1.2-IdelX",
+      "url": "https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/scotty_repos.v4.0.1.2-IdelX.bin",
+      "sha256": "a97e5c2f0a44264eabd4544ac5b098e4b604d6880b052df11d8224dc1507c488",
+      "sizeBytes": 1355792,
+      "releaseNotes": "https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/release-notes/ScottyAI_IdleX_3Q_2026.md"
+    }
+  ]
+}
