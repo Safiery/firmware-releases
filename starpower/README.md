@@ -1,5 +1,13 @@
 # StarPower firmware
 
+| Field | Value |
+|---|---|
+| Status | Draft |
+| Version | v0.1 |
+| Owner | Adam |
+| Last updated | 2026-10-20 |
+| ISO-affected | no (placeholder; nothing published yet) |
+
 Reserved for StarPower builds.
 
 Nothing is published here yet. Before the first release, record in this file:

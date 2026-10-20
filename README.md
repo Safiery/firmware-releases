@@ -1,5 +1,13 @@
 # Safiery firmware releases
 
+| Field | Value |
+|---|---|
+| Status | Active |
+| Version | v0.2 |
+| Owner | Adam |
+| Last updated | 2026-10-20 |
+| ISO-affected | yes (firmware change control: ISO 9001 8.5.6) |
+
 Firmware binaries that the **Safiery Connect** app downloads and installs onto hardware in the
 field, one folder per product line.
 
@@ -24,7 +32,7 @@ as published, because it is.
 | [`starcustom/`](starcustom) | StarCustom |
 
 Folder names are lower case because they appear in the URLs the app fetches, and
-`raw.githubusercontent.com` is case-sensitive — `Startank` and `startank` are different paths, and
+`raw.githubusercontent.com` is case-sensitive - `Startank` and `startank` are different paths, and
 the difference is invisible until a download 404s on a customer's phone.
 
 ## Why folders rather than branches
@@ -39,7 +47,7 @@ https://raw.githubusercontent.com/Safiery/firmware-releases/main/scotty/<file>
 A branch per product would mean the app knowing branch names, and a single manifest could not point
 across them. One branch with folders keeps every product reachable from one place.
 
-Note the firmware **source** repositories do use a branch per product line — `Safiery/scotty_repos`
+Note the firmware **source** repositories do use a branch per product line - `Safiery/scotty_repos`
 splits Scotty V2, V3, V4 and IdleX that way. That is the right choice there and the wrong one here,
 for the reason above.
 

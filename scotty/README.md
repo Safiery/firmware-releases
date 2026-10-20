@@ -1,9 +1,17 @@
 # Scotty AI firmware
 
+| Field | Value |
+|---|---|
+| Status | Active |
+| Version | v0.2 |
+| Owner | Adam |
+| Last updated | 2026-10-20 |
+| ISO-affected | yes (firmware change control: ISO 9001 8.5.6) |
+
 Builds for Scotty AI units, which update over Wi-Fi: the app joins the Scotty's own access point and
 POSTs the binary to `http://172.24.24.1/update`.
 
-## Current releases — 3Q 2026
+## Current releases - 3Q 2026
 
 | Line | Version | File | Notes |
 |---|---|---|---|
@@ -17,7 +25,7 @@ Each file's SHA-256 is recorded in its release notes.
 ## Lines are not interchangeable
 
 A Scotty must only ever be given firmware from **its own line**. There is no rollback on the device
-— the update handler commits and reboots — so a wrong flash bricks the unit until it is physically
+- the update handler commits and reboots - so a wrong flash bricks the unit until it is physically
 reflashed. Each release's Compatibility section says which hardware it applies to; read it before
 installing anything.
 
@@ -27,7 +35,7 @@ compares against and what the unit says are the same string.
 
 ## Special builds do not belong here
 
-Units exist in the field running builds made for one product — `V4.0.0.7 400DCDC`,
+Units exist in the field running builds made for one product - `V4.0.0.7 400DCDC`,
 `4.0.0.6-BatteryNMEA`, and a fire-truck build that reports a structurally ordinary `4.0.0.5`. The
 app refuses to update any of them and refers the customer to Safiery support. Publishing a standard
 build that one of those units could match would defeat that protection.
@@ -35,11 +43,11 @@ build that one of those units could match would defeat that protection.
 ## File naming
 
 Keep the version readable in the filename, as the files above do. The version the app compares
-against is the one **inside** the binary, not the filename — the filename is for humans. Every
+against is the one **inside** the binary, not the filename - the filename is for humans. Every
 Scotty `.bin` is an ESP32 image and begins with the byte `0xE9`.
 
 ## What is not here
 
 Release notes in this folder carry the **customer changelog** and **compatibility** only.
-Engineering notes — build configuration, commits, branches, internal discussion — stay in the
+Engineering notes - build configuration, commits, branches, internal discussion - stay in the
 private source repository, because this repository is public.
